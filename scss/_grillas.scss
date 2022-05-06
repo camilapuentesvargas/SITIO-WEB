@@ -1,69 +1,79 @@
 
-/*INICIO DE GRILLA grid0*/
+/*INICIO DE GRILLA grid0 INDEX*/
 .grid0 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 2fr 3fr 0.9fr; 
+    grid-template-rows: 1fr 3fr 0.9fr; 
     gap: 0px 0px; 
     grid-template-areas:
     "quienesSomos quienesSomos"
     "mision vision"
     "juntaDirectiva juntaDirectiva";
-    font-family: sans-serif;
+    font-family: $letra;
     font-size: 25px;
     margin-right: 13%;
     margin-left: 13%;
     border: solid 2px;
     margin-bottom: 0%;
+    padding-top: 10%;
+    border: none;
 }
 .quienesSomos { 
     grid-area: quienesSomos; 
     border-bottom: solid ;
     padding-top: 40px;
-    background-color: #487498;
+    padding-bottom: 20%;
+    background-color: $fondoParrafos;
+    color: $parrafos;
 }
 .parrafoQuienes{
     margin: 2px;
     line-height: 1.8;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: $letra;
     margin-left: 3%;
     margin-right: 3%;
+    color: $parrafos;
 }
 .parrafoMision,
 .parrafoVision{
     margin: 2px;
     line-height: 1.8;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: $letra;
     margin-left: 3%;
-    margin-right: 3%;
+    color: $parrafos;
 }
 .mision { 
     grid-area: mision; 
     line-height: 1.8;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: $letra;
     border-right: solid;
     padding-top: 40px;
-    background-color: #487498;
+    background-color: $fondoParrafos;
+    color: $parrafos;
+    border: none;
 }
 .vision { grid-area: vision; 
     padding-top: 40px;
-    background-color: #487498;
+    background-color: $fondoParrafos;
     line-height: 1.8;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: $letra;
     padding-top: 40px;
-    background-color: #487498;
+    color: $parrafos;
+    border-color: black;
 }
 .juntaDirectiva { grid-area: juntaDirectiva; 
     border-top: solid;
     padding-top: 40px;
-    background-color: #487498;
+    background-color: $fondoParrafos;
     line-height: 1.8;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: $letra;
+    color: $parrafos;
+    margin-bottom: 10%;
 }
 /*FIN DE GRILLA*/
 /*FOOTER*/

@@ -1,8 +1,8 @@
-/*INICIO DE GRILLA grid0*/
+/*INICIO DE GRILLA grid0 INDEX*/
 .grid0 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr 3fr 0.9fr;
+  grid-template-rows: 1fr 3fr 0.9fr;
   gap: 0px 0px;
   grid-template-areas: "quienesSomos quienesSomos" "mision vision" "juntaDirectiva juntaDirectiva";
   font-family: sans-serif;
@@ -10,13 +10,17 @@
   margin-right: 13%;
   margin-left: 13%;
   border: solid 2px;
-  margin-bottom: 0%; }
+  margin-bottom: 0%;
+  padding-top: 10%;
+  border: none; }
 
 .quienesSomos {
   grid-area: quienesSomos;
   border-bottom: solid;
   padding-top: 40px;
-  background-color: #487498; }
+  padding-bottom: 20%;
+  background-color: #004085;
+  color: white; }
 
 .parrafoQuienes {
   margin: 2px;
@@ -24,7 +28,8 @@
   font-size: 15px;
   font-family: sans-serif;
   margin-left: 3%;
-  margin-right: 3%; }
+  margin-right: 3%;
+  color: white; }
 
 .parrafoMision,
 .parrafoVision {
@@ -33,7 +38,7 @@
   font-size: 15px;
   font-family: sans-serif;
   margin-left: 3%;
-  margin-right: 3%; }
+  color: white; }
 
 .mision {
   grid-area: mision;
@@ -42,26 +47,31 @@
   font-family: sans-serif;
   border-right: solid;
   padding-top: 40px;
-  background-color: #487498; }
+  background-color: #004085;
+  color: white;
+  border: none; }
 
 .vision {
   grid-area: vision;
   padding-top: 40px;
-  background-color: #487498;
+  background-color: #004085;
   line-height: 1.8;
   font-size: 15px;
   font-family: sans-serif;
   padding-top: 40px;
-  background-color: #487498; }
+  color: white;
+  border-color: black; }
 
 .juntaDirectiva {
   grid-area: juntaDirectiva;
   border-top: solid;
   padding-top: 40px;
-  background-color: #487498;
+  background-color: #004085;
   line-height: 1.8;
   font-size: 15px;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  color: white;
+  margin-bottom: 10%; }
 
 /*FIN DE GRILLA*/
 /*FOOTER*/
@@ -182,11 +192,13 @@ main {
 
 h1 {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  color: white; }
 
 h2 {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  color: white; }
 
 .letraBeneficios {
   line-height: 1.8;
