@@ -21,8 +21,8 @@
 .quienesSomos { 
     grid-area: quienesSomos; 
     border-bottom: solid ;
-    padding-top: 40px;
-    padding-bottom: 20%;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: $fondoParrafos;
     color: $parrafos;
 }
@@ -43,6 +43,8 @@
     font-family: $letra;
     margin-left: 3%;
     color: $parrafos;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .mision { 
     grid-area: mision; 
@@ -50,13 +52,11 @@
     font-size: 15px;
     font-family: $letra;
     border-right: solid;
-    padding-top: 40px;
     background-color: $fondoParrafos;
     color: $parrafos;
     border: none;
 }
 .vision { grid-area: vision; 
-    padding-top: 40px;
     background-color: $fondoParrafos;
     line-height: 1.8;
     font-size: 15px;
@@ -78,7 +78,11 @@
 /*FIN DE GRILLA*/
 /*FOOTER*/
 .containerFooter {  display: grid;
-    padding: 5%;
+    padding: 3%;
+    font-family: $letra;
+    line-height: 2em;
+    font-size: 2rem;
+    text-align: center;
     color: white;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -119,7 +123,7 @@
     "direccion";
     grid-area: infoFooter;
 }
-.correo { grid-area: correo; }
+.correo { grid-area: correo;}
 .www { grid-area: www; }
 .numero { grid-area: numero; }
 .direccion { grid-area: direccion; } 
