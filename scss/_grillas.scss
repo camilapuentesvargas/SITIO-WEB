@@ -3,7 +3,7 @@
 .grid0 {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 3fr 0.9fr; 
+    grid-template-rows: 0.7fr 1fr 0.5fr; 
     gap: 0px 0px; 
     grid-template-areas:
     "quienesSomos quienesSomos"
@@ -43,8 +43,6 @@
     font-family: $letra;
     margin-left: 3%;
     color: $parrafos;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 .mision { 
     grid-area: mision; 
@@ -55,19 +53,23 @@
     background-color: $fondoParrafos;
     color: $parrafos;
     border: none;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 .vision { grid-area: vision; 
     background-color: $fondoParrafos;
     line-height: 1.8;
     font-size: 15px;
     font-family: $letra;
-    padding-top: 40px;
     color: $parrafos;
     border-color: black;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 .juntaDirectiva { grid-area: juntaDirectiva; 
     border-top: solid;
     padding-top: 40px;
+    padding-bottom: 60px;
     background-color: $fondoParrafos;
     line-height: 1.8;
     font-size: 15px;
