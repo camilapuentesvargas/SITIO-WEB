@@ -1,8 +1,5 @@
 @import "variable";
 @import "grillas";
-@import "imagenes";
-@import "maps";
-@import "extend";
 
 * {
     margin: 0;
@@ -99,6 +96,8 @@ h2{
     margin-left: 15%;
     margin-right: 15%;
     list-style-type: decimal;
+    background-color: #004085;
+    color: white;
 }
 .afiliacion{
     text-align: center;
@@ -112,13 +111,20 @@ h2{
     font-family: sans-serif;
     margin-left: 15%;
     margin-right: 15%;
+    background-color: #004085;
+    color: white;
 }
 .tablaFormulario{
     line-height: 1.8;
     font-size: 15px;
     font-family: sans-serif;
     margin-left: 15%;
-    margin-right: 15%;  
+    margin-right: 15%; 
+    background-color: #004085;
+    color: white;
+    text-align: center;
+    background-color: #004085;
+    color: white;
 }
 .formulario{
     margin-top: 100px;
@@ -128,31 +134,41 @@ h2{
     font-family: sans-serif;
     margin-left: 15%;
     margin-right: 15%;
+    
 }
 .formularioLetra{
     font-size: 18px ;
     font-family: sans-serif;
-    margin-bottom: 100px;
+    margin-bottom: 15%;
     margin-top: 100px;
     margin-left: 15%;
     margin-right: 15%;
+    padding-bottom: 15%;
 }
 .eventos{
     font-family: sans-serif;
     text-align: center;
     font-size: 50px;
+    padding-top: 8%;
+    padding-bottom: 5%;
 }
 .paginaConstruccion1 {
     position: center;
     display: flex;
     justify-content: center;
     size: 100%;
+    height: 500px;
+    width: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 5%;
 }
 .asociados{
     text-align: center;
     font-family: sans-serif;
     padding-bottom: 100px;
     font-size: 30px;
+    padding-top: 10%;
 }
 .logosSeccion{
     display: flex;
@@ -171,22 +187,27 @@ h2{
 .carrocerias{
     width: 300px;
     height: 200px;
+    margin: 3%;
 }
 .ksc{
     width: 300px;
     height: 200px;
+    margin: 3%;
 }
 .logistica{
     width: 300px;
     height: 200px;
+    margin: 3%;
 }
 .tdp{
     width: 300px;
     height: 200px;
+    margin: 3%;
 }
 .sunnyapp{
     width: 300px;
     height: 200px;
+    margin: 3%;
 }
 img.carrocerias:hover,
 img.ksc:hover,
@@ -204,18 +225,23 @@ img.sunnyapp:hover{
     margin-bottom: 5%;
     margin-left: 15%;
     margin-right: 15%;
+    padding-top: 10%;
+    color: $tituloh1;
 }
 .content{
-    background: #FFF5C4;
+    margin-bottom: 5%;
     color: white;
     padding: 0 1.5em;
     line-height: 1.6;
 }
 .contactanosWrapper{
     box-shadow: 0 0 20px 0 rgb(0, 10, 15);
+    margin-right: 20%;
+    margin-left: 20%;
 }
 .contactanosWrapper>*{
     padding: 2em;
+    background-color: rgb(84, 154, 220);
 }
 .contactForm{
     background-color: rgb(121, 161, 255);
@@ -256,7 +282,8 @@ img.sunnyapp:hover{
     padding: 1em;
 }
 .contactInfo{
-    background: red
+    background:black;
+    
 }
 .contactInfo h2,
 .contactInfo ul,
@@ -291,7 +318,10 @@ img.sunnyapp:hover{
     margin-right: 15%;
     display: flex;
     justify-content: center;
+    padding-bottom: 10%;
 }
 .informacionEspacio{
     margin: 2px;
 }
+.main{margin-top: 5%;
+margin-bottom: 5%;}
